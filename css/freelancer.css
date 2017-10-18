@@ -27,8 +27,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
   text-transform: uppercase; }
 
 hr.star-light,
@@ -68,14 +68,14 @@ hr.star-primary:after {
   margin: 0 auto; }
 
 section {
-  padding: 100px 0; }
+  padding: 75px 0; }
   section h2 {
     font-size: 3em;
     margin: 0; }
 
 section.success {
-  color: white;
-  background: #18BC9C; }
+/*  color: white;
+  background: #18BC9C; */}
 
 @media (max-width: 767px) {
   section {
@@ -101,8 +101,8 @@ section.success {
       outline: none; }
 
 #mainNav {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   border: none;
 /*background: #fff; */ }
@@ -168,7 +168,7 @@ header.masthead {
     display: block;
     margin: 0 auto 20px; }
   header.masthead .intro-text .name {
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
     display: block;
@@ -265,7 +265,7 @@ header.masthead {
     /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 30px;
     margin-left: 35px;
     /* IE 9 */
     -webkit-transform: rotate(45deg);
@@ -276,7 +276,7 @@ header.masthead {
       /* Safari and Chrome */
       z-index: 1052;
       width: 1px;
-      height: 75px;
+      height: 30px;
       /* IE 9 */
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
