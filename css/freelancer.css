@@ -236,9 +236,16 @@ header.masthead {
           vertical-align: middle;
           display: block;
           margin: auto;
+          border: 1px solid #ddd;
         }
         #portfolio p {
           text-align: center;
+          padding: 5px;
+          border: 1px solid #ddd;
+        }
+        #portfolio a:hover {
+          text-decoration: none;
+          opacity: 0.7;
         }
 
 
