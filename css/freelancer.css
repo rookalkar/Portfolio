@@ -105,7 +105,7 @@ section.success {
   font-weight: 400;
   text-transform: uppercase;
   border: none;
-/*background: #fff; */ }
+  background: #fff; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -148,7 +148,7 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     /*  color: white; */
       border-radius: 3px;
-      text-decoration: underline;
+      /*text-decoration: underline;*/
     /*  background: #CC6649; */ }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
       /*  color: white; */
@@ -168,7 +168,7 @@ header.masthead {
  }
   header.masthead img {
     display: block;
-    margin: 0 auto 20px; }
+    margin: 0 auto 80px; }
   header.masthead .intro-text .name {
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
@@ -180,9 +180,9 @@ header.masthead {
     font-weight: 300; }
 
 @media (min-width: 768px) {
-  /*header.masthead {
-    padding-top: 200px;
-    padding-bottom: 100px; }*/
+  header.masthead {
+    padding-top: 50px;
+  /*  padding-bottom: 100px; */}
     header.masthead .intro-text .name {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
@@ -198,8 +198,8 @@ header.masthead {
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer;
-    border: 0.5px solid #dedad9;
-    border-radius: 5px;
+    /*border: 0.5px solid #dedad9;
+    border-radius: 5px;*/
     padding: 10px;
    }
     #portfolio .portfolio-item .portfolio-link .caption {
@@ -228,13 +228,12 @@ header.masthead {
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
           margin: 0; }
-        #portfolio .image-widget {
+        /*#portfolio .image-widget {
           height: 200px;
           line-height: 250px;
-        }
+        }*/
         #portfolio .image-widget img {
           vertical-align: middle;
-          max-height: 180px;
           display: block;
           margin: auto;
         }
