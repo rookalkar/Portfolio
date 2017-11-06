@@ -545,7 +545,7 @@ footer {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover, .prev:focus, .next:focus {
+.prev:hover, .next:hover {
   background-color: #bbb;
 }
 
