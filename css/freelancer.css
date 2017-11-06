@@ -527,7 +527,7 @@ footer {
     display: none;
 }
 
-.mySlides > .img {
+.mySlides > img {
     max-width: 100%;
 }
 
