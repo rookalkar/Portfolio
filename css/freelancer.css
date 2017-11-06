@@ -77,6 +77,10 @@ section.success {
 /*  color: white;
   background: #CC6649; */}
 
+.process{
+  width: 100%;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0; }
