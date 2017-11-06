@@ -208,7 +208,7 @@
                 <div class="modal-body">
                   <h2>Coder Girls: Pair Programming Partner Search</h2>
                   <hr>
-                  <img class="img-fluid img-centered" src="img/portfolio/pair-programming.jpg" alt="Sketch of two people pair programming">
+                  <!-- <img class="img-fluid img-centered" src="img/portfolio/pair-programming.jpg" alt="Sketch of two people pair programming"> -->
                   <div class="row">
                     <div class="col-md-8">
                       <p> <strong>Problem: </strong></br> Increase number of women in technology by enabling partner search for pair programming. </p>
@@ -239,7 +239,7 @@
                   The Coder Girls project focuses on the problem of searching for a partner.
                   </p>
                   <h4>Process </h4>
-                  <!-- TODO: Insert photo of the process -->
+                  <img src="img/portfolio/582/582.png" class="process" alt="process">
                   <h4>Competitive Analysis</h4>
                   <p>I looked at the three most popular coding-partner search alternatives currently existing and compared their feautres, pros and cons</p>
                   <!-- TODO: Table -->
@@ -261,11 +261,15 @@
 
                   <div class="slideshow-container">
                     <div class="mySlides">
-                      <img class="img-centered" src="img/portfolio/582/Janice2.png" alt="Pro user persona">
+                      <img class="img-centered" src="img/portfolio/582/Janice.png" alt="Pro user persona">
                     </div>
 
                     <div class="mySlides">
-                      <img class="img-centered" src="img/portfolio/582/Becky2.png" alt="Pro user persona">
+                      <img class="img-centered" src="img/portfolio/582/Becky.png" alt="Pro user persona">
+                    </div>
+
+                    <div class="mySlides">
+                      <img class="img-centered" src="img/portfolio/582/Miranda.png" alt="Pro user persona">
                     </div>
 
                     <div class="mySlides">
@@ -281,6 +285,7 @@
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
                   </div>
 
                   <button class="btn btn-success" type="button" data-dismiss="modal">
@@ -408,15 +413,41 @@
                   </div>
                   <hr/>
                   <h4>Process</h4>
-                  <!-- TODO: Add image of the process -->
+                  <img src="img/portfolio/IDC/IDC.png" alt="process" class="process"/>
                   <p>The Government of Maharashtra conducts surveys every years to record the presence of infrastructural facilities in schools all across the state. It also records values of gender ratio, student to teacher ratio and a separate examination to survey the learning levels at these schools. These surveys are extensive in terms of geography covered.
                   </p>
                   <p>The state of Maharashtra can be divided into divisions -> districts -> clusters -> villages -> schools.</p>
                   <p>The project started out with exploring the data set and it was soon clear that this information can be overwhelming. So we decided to make it easier to extract sense-worthy information from this dataset. Various visualisations were tested and we zeroed in on a TreeMap as it was perfect for showing hierarchical data. The project was aimed at conveying the presence and magnitude of problem of areas at each level in the state.</p>
                   <p>Hierarchical data can be represented as a treemap. This visualisation takes the treemap one step further, by adding a choropleth element to it. Not only are the rectangles’ areas proportional to the enrolment of that geographical area, their colors represent the percentage of schools that have a particular educational infrastructural facility such as playground/ electricity/ water/ ramps etc. This allows for identification and deeper analysis of problem areas by analysing sub-areas. It also allows comparison between geographical areas and between facilities. Smooth transitions upon zoom maintain visual continuity and highlight of areas, display of specific data on hover allowed for context maintenance. The tool can be extended to include other facilities and states.</p>
-                  <p>You can explore the entire dataset at the <a href="https://info-design-lab.github.io/UDISE/" target="_blank">InfoDesign Lab’s website.</a></p>
+                  <p>You can explore the entire visualisation at the <a href="https://info-design-lab.github.io/UDISE/" target="_blank">InfoDesign Lab’s website.</a></p>
 
+                  <div class="row">
+                    <div class="col-md-12">
+                      <video controls="controls" name="TreeMap Sample" src="img/portfolio/IDC/TreeMap.mov"></video>
+                    </div>
+                  </div>
+                  <hr/>
 
+                  <h3>Presence of Reference Lines in Charts (UMSI) </h3>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p> <strong>Research Question: </strong></br> What are the reference lines present in various chart types? Do they affect confidence and response time of individual while reading chart? </p>
+                    </div>
+                    <div class="col-md-4">
+                      <p> <strong>Tools used: </strong></br> R, Notebook, GGplot</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p> <strong>Solution: </strong></br>Explore relationship of bias and variance with response time and confidence from previous studies.</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p> <strong>Role: </strong></br> Research Assistant</p>
+                    </div>
+                  </div>
+                  <hr/>
+                  <p> This is WIP. Please check back soon for results of the study </p>
+                  <hr/>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -459,6 +490,9 @@
                   </div>
                   <hr/>
                   <h4>Process</h4>
+
+                  <img class="process" src="img/portfolio/GameDesign/GameDesign.png" alt="process"/>
+
                   <p>We began by exploring the concept of GenderFuck and what it meant in the society we were living in. This lead to a lot of research about gender discrimination in the modern context and also about gender fluidity. Using Papert’s ideas, we wanted to build an object which the user could think with. So we decided to build a board game which would allow the players to feel what real people feel when they are discriminated against.</p>
                   <p>The examples of gender discrimination were crowdsourced from our social media network. While it limited the society, we received a great variation within that spectrum.</p>
                   <p>These examples were then given ‘influence points’ based on how significantly they affected the person's life.</p>

@@ -77,8 +77,15 @@ section.success {
 /*  color: white;
   background: #CC6649; */}
 
+  video {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
 .process{
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 @media (max-width: 767px) {
@@ -248,6 +255,7 @@ header.masthead {
           text-align: center;
           padding: 5px;
           border: 1px solid #ddd;
+          background-color: #f6f6f6;
         }
         #portfolio a:hover, a:focus {
           text-decoration: none;
