@@ -175,8 +175,12 @@ section.success {
 header.masthead {
   /*padding-top: 100px;
   padding-bottom: 50px;*/
-  text-align: center;
-  color: white;
+  /*text-align: center;*/
+  color: gray;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 25px;
   /*background: #CC6649;*/
  }
   header.masthead img {
@@ -201,6 +205,9 @@ header.masthead {
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 
+#portfolio {
+  margin: auto;
+}
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
