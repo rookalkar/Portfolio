@@ -150,6 +150,7 @@ section.success {
   #mainNav {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
