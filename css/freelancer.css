@@ -307,8 +307,13 @@ header.masthead {
       margin-bottom: 30px;
       display: flex;
       justify-content: center;
-      max-height: 300px;
+      /*max-height: 300px;*/
+      max-width: 100%;
      }
+    .sketch {
+       height: 500px;
+       margin:auto;
+      }
     .portfolio-modal .modal-dialog .modal-content .item-details {
       margin: 30px 0; }
     .portfolio-modal .modal-dialog .modal-content .disclaimer {

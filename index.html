@@ -80,7 +80,7 @@
                 </div>
               </div>
               <div class="image-widget">
-                <img class="img-fluid" src="img/portfolio/PairResize.png" alt="Sketch of two people pair programming">
+                <img class="img-fluid" src="img/portfolio/pairfull.jpg" alt="Sketch of two people pair programming">
               </div>
               <p>Pair-Programming Partner Search <br/> (Interaction Design)</p>
             </a>
@@ -237,22 +237,14 @@
                   </div>
                   <hr/>
                   <h4>Problem Statement</h4>
-                  <p>This project focusses on providing a solution to encourage women in technology by enabling pair programming. This coding practice improves technical proficieny and develops a network of colleagues and mentors. </br>
-                    The problem domain of pair programming can be divided into three sub-problems:
-                  </p>
-                    <ul>
-                      <li> Partner: Who to pair program with? How to find this person? What qualities to look for? </li>
-                      <li> Location: Where to pair program - physical location or remote? </li>
-                      <li> Project: What task to work on? </li>
-                    </ul>
-                  <p>
-                  The Coder Girls project focuses on the problem of searching for a partner.
+                  <p>The number of women technology is alarmingly low. A lot of women leave the field due to lack of mentorship and network to tap onto. There are also unsure about their proficiency. The concept of pair-programming is the perfect solution for this problem as it not only helps improve skills and boost confidence, it also builds a network of women in technology. However, women often face difficult in finding partners pair program with. To tackle this problem, I have created a Web Application called Coder Girls which allows users to search for pair programming partners.
                   </p>
                   <h4>Process </h4>
                   <img src="img/portfolio/582/582.png" class="process" alt="process">
                   <h4>Competitive Analysis</h4>
                   <p>I looked at the three most popular coding-partner search alternatives currently existing and compared their feautres, pros and cons</p>
-                  <!-- TODO: Table -->
+
+                  <img src="img/portfolio/582/comp.png" alt="analysis">
                   <h4>User Research Interviews</h4>
                   <p>I also conducted 5 user interviews of graduate and undergraduate girl student in computer science who have pair programmed in the past. While all of them enjoyed the process when done in class, most of them had never tried it outside of class because it was difficult to find someone to pair with who had shared interests and proficiency.</p>
 
@@ -263,7 +255,9 @@
                   <p>I started out by brainstorming a few possible solutions to the idea and expanded them to include workflows for each. This helped me explore a range of solutions, from physical to mixed reality:
                     Using a band that lights up when users cross paths, using a dedicated app, fast-switching hackathons, adding badges on LinkedIn profiles, using existing social media networks and posting on MOOCS discussion boards were some of them.
                   </p>
-                  <!-- TODO: Insert both sketch images -->
+                  <div>
+                    <img class="sketch" src="img/portfolio/582/workflow2.png" alt="sketches">
+                  </div>
 
                   <h4>Persona</h4>
                   <p>I created an empathy map for each persona involving their Needs, Goals and Motivations, Tasks, Feelings, Pain Points and Influences. This helped me organise their information into Behaviour, Needs, Goals/ Motivation and Personality. Adding their demographics and a personal quote (from the interviews I had conducted earlier) helped bring them to life.</p>
@@ -289,7 +283,6 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                   </div>
-                  <br>
 
                   <div style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
@@ -297,7 +290,23 @@
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
                   </div>
+                  <br/>
 
+                  <h4> QOC Design synthesis and Design defence </h4>
+                  <p> I identified one critical feature in the application and explored three solution of this feature. The most critical feature for this project is Search - how a user searchs, what is returned in the search, how is the search list presented, what is the order of the list and other such questions. I came up with possible ways to achieve these tasks and analyses each approach against a set of criteria particular to that question. This helped me determine major design choice such as forced login to allow customisation, profile creation to deliver rich results in searches by other users, ordering searches by matching interests to increase chances of match and using in-app messaging for contact between two users for ease of use and quick respone time. The detailed questions, options and criteria used for each question are shown in the diagrams below. </p>
+                  <div>
+                    <p>Dotted lines represent negative assessment and solid lines represent positive assessment</p>
+                    <img class="img-centered" src="img/portfolio/582/QOC.png"></img>
+                  </div>
+
+                  <h4> Paper Prototyping</h4>
+                  <p>Paper prototyping was a quick, easy and cheap method to get feedback on my design. I tested the prototype with real users and dicovered that I hadn't included the feature to edit profile. I also learnt that adding linkedIn search was much appreciated by most users as it reduced their onboarding time. I gained a lot of contructive feedback in this process and re-iterated over my design to incorporate the insights gained from it.</p>
+                  <!-- <video controls="controls" name="TreeMap Sample" src="img/portfolio/582/Paperfinal.mp4"></video> -->
+                  <div align="center">
+                      <iframe width="600" height="400"
+                          src="https://youtu.be/mkIjAZclYDk">
+                      </iframe>
+                  </div>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -404,7 +413,7 @@
                   <h2>Data Visualisation</h2>
 
                   <hr/>
-                  <h3>Zoomable TreeMap (IIT Bombay) </h3>
+                  <h3>Zoomable TreeMap (<a href="http://www.idc.iitb.ac.in/">IIT Bombay</a>) </h3>
                   <div class="row">
                     <div class="col-md-8">
                       <p> <strong>Problem: </strong></br> Visualise a large dataset of education related fields in the state of Maharashtra </p>
@@ -438,7 +447,7 @@
                   </div>
                   <hr/>
 
-                  <h3>Presence of Reference Lines in Charts (UMSI) </h3>
+                  <h3>Presence of Reference Lines in Charts (<a href="https://www.si.umich.edu/">UMSI</a>) </h3>
                   <div class="row">
                     <div class="col-md-8">
                       <p> <strong>Research Question: </strong></br> What are the reference lines present in various chart types? Do they affect confidence and response time of individual while reading chart? </p>
@@ -546,13 +555,46 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
-                  <h2>Contextual Inquiry Consulting at ICPSR</h2>
-                  <p>WIP, check back soon.</p>
+                  <h2>Contextual Inquiry Consulting at <a href="https://www.icpsr.umich.edu/">ICPSR</a></h2>
+                  <hr/>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p> <strong>Problem: </strong></br> ICPSR recently underwent a reorganisation from project specific teams to process oriented teams. Due to lack of standards, there is redundancy in work and work-turnaround is slow.  </p>
+                    </div>
+                    <div class="col-md-4">
+                      <p> <strong>Skills developed: </strong></br>Contextual Enquiry, Affinity Wall Mapping, User Interviews, Interview Interpretation</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p> <strong>Solution: </strong></br>Recommended changes to the current standards and workflow processes to reduce redundancy in work</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p> <strong>Team: </strong></br> Anant Mittal, Olivia, Ruchi Ookalkar, Ruth Wang</p>
+                    </div>
+                  </div>
+                  <hr/>
+                  <h4>Problem Statement</h4>
+                  <p>ICPSCR (International Consortium for Political and Social Research) is the world leader in data curation of social data. The process within the organisation varies from data acquisition, data cleaning, data massaging, generating metadata and creating codebooks to final release of data for public use on their website. The organisation went through a structural change in January 2018. There exists several topics under ICPSR such as aging, criminal justice, drug use etc. Prior to January 2018, the organisation was divided into topical archives , i.e teams with expertise in a particular archive. Each archive had its own manager who ccordinated with funders (who set requirements for the curation). Post the reorganisation, all the data curators were brought into one team, lead by curation supervisors. The supervisors communicated with the managers. This change from topical expertise to a general pool has lead to pushback in terms of accepting a uniform standard, since they are dealing wit historical ways of doing things.
+                  </p>
+                  <br/>
+                  <h4>Interview Methodology</h4>
+                  <p> We conducted a total of 6 interviews from across the various level of the organisational heirarchy (project managers, data curators, curation supervisors and head of the organisation). The interviews were conducted in the contextual style, where the interviewer asked the questions at the place of work of the interviewee, often asking the interviewee to demonstrate tasks which came up during the interview. This process helped us discover problems and social issues within the organisation. The interview were conducted by two members - one acting as the interviewer and one as the note taker. We also collected audio recordings of the interview and images from the workplace to guide our analysis.</p>
+                  <br/>
+                  <h4>Interpretation</h4>
+                  <p> Each interview was followed by an interpretation session with 24 hours of the interview. During these sessions, we went over the interview notes, recordings and images and analyses these to generate affinity notes - one complete sentence that would escirbe what was happening at point. We also noted down what any further questions we wanted to cover in future interviews and jotted down our analysis of the events.</p>
+                  <br/>
+                  <h4> Affinity Wall</h4>
+                  <p> After the 6 interviews, we had about 500 notes. We went ahead and categorised these in three levels. The white notes were grouped together by similarity of content or possible causal relationships to arrive at teh blue notes. We then repeated the process two more times to arrive at green and pink notes. We ensured that none of clusters had more than 7 ideas in each. This helped us in writing clear detailed sentences describing each cluster. The final pink notes gave us an idea of what exactly was happening in the organisation and the key issues faced by the staff. </p>
+                  <br/>
+                  <h4> Recommendations</h4>
+                  <p> We are currently in the process of using our analysis to come up with recommendations. Please check back soon for the final report. </p>
+
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
-                    Close </button>
+                    Close Project</button>
                 </div>
               </div>
             </div>
