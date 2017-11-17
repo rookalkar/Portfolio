@@ -111,6 +111,12 @@ section.success {
     .scroll-top .btn:focus {
       outline: none; }
 
+.about-text {
+  margin-top: 50px;
+}
+.about-photo {
+  max-width: 100%;
+}
 #mainNav {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -208,6 +214,7 @@ header.masthead {
 
 #portfolio {
   margin: auto;
+  margin-top: 50px;
 }
 #portfolio .portfolio-item {
   right: 0;
