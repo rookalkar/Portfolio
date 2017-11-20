@@ -117,6 +117,7 @@ section.success {
       }
       .about-text {
         margin-top: 50px;
+        font-weight: 300;
       }
       .about-photo {
         max-width: 100%;
@@ -274,7 +275,8 @@ header.masthead {
           text-align: center;
           padding: 5px;
           border: 1px solid #ddd;
-          background-color: #476898;
+          /*background-color: #476898;*/
+          background-color: #7991b5;
           color: white;
           font-weight: 200;
         }
