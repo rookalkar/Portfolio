@@ -274,7 +274,9 @@ header.masthead {
           text-align: center;
           padding: 5px;
           border: 1px solid #ddd;
-          background-color: #f4f4f4;
+          background-color: #476898;
+          color: white;
+          font-weight: 200;
         }
         #portfolio a:hover, a:focus {
           text-decoration: none;
