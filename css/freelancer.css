@@ -153,9 +153,9 @@ section.success {
   /*  color: white; */
     border-color: white; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-    /*  color: white; */
+     color: white;
       border-color: #224F8D;
-      background-color: #224F8D; }
+      background-color: #476898; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -275,8 +275,8 @@ header.masthead {
           text-align: center;
           padding: 5px;
           border: 1px solid #ddd;
-          /*background-color: #476898;*/
-          background-color: #7991b5;
+          background-color: #476898;
+          /*background-color: #7991b5;*/
           color: white;
           font-weight: 200;
         }
