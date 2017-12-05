@@ -271,6 +271,9 @@ header.masthead {
           margin: auto;
           border: 1px solid #ddd;
         }
+        #portfolio .sub-heading {
+          font-size: 0.9em;
+        }
         #portfolio p {
           text-align: center;
           padding: 5px;
