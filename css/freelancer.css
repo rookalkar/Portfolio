@@ -116,7 +116,6 @@ section.success {
 
       }
       .about-text {
-        margin-top: 50px;
         font-weight: 300;
       }
       .about-photo {
@@ -134,7 +133,7 @@ section.success {
    }
   #mainNav .navbar-brand {
     font-size: 1.1rem;
-    color: #7991b5;}
+    color: #0c91a4;}
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     /*  color: white; */}
   #mainNav .navbar-nav {
@@ -224,6 +223,8 @@ header.masthead {
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
+  padding-left: 8px;
+  padding-right: 8px;
  }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
@@ -234,6 +235,9 @@ header.masthead {
     /*border: 0.5px solid #dedad9;
     border-radius: 5px;*/
     padding: 10px;
+   }
+   #portfolio .portfolio-item .portfolio-link :hover {
+     transform: scale(1.1);
    }
     #portfolio .portfolio-item .portfolio-link .caption {
       position: absolute;
@@ -269,19 +273,17 @@ header.masthead {
           vertical-align: middle;
           display: block;
           margin: auto;
-          border: 1px solid #ddd;
+          /*border: 1px solid #ddd;*/
         }
+
         #portfolio .sub-heading {
-          font-size: 0.9em;
+          font-size: 0.95em;
+          color: #0c91a4;
         }
         #portfolio p {
           text-align: center;
           padding: 5px;
-          border: 1px solid #ddd;
-          background-color: #476898;
-          /*background-color: #7991b5;*/
-          color: white;
-          font-weight: 200;
+          color: #333;
         }
         #portfolio a:hover, a:focus {
           text-decoration: none;
@@ -301,7 +303,6 @@ header.masthead {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  /*text-align: center;*/
   border: none;
   border-radius: 0;
   background-clip: border-box;
