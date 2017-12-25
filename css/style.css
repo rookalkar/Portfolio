@@ -65,6 +65,10 @@ section {
   margin: 0 auto;
 }
 
+.prototype_link {
+  font-size: 1.15em;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0; }
