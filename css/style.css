@@ -69,6 +69,11 @@ section {
   font-size: 1.15em;
 }
 
+iframe {
+  display: block;
+  margin: auto;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0; }
