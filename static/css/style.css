@@ -586,3 +586,12 @@ footer {
 .slideshow-container > .active, .dot:hover {
   background-color: #717171;
 }
+
+.imap {
+  max-height: 700px;
+  margin: auto;
+}
+
+.quote {
+  color: #2C5AA5;
+}
