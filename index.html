@@ -57,6 +57,9 @@
             <li class="nav-item">
               <a class="nav-link" href="Resume.pdf" target="_blank">Resume(PDF)</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://medium.com/@rookalkar" target="_blank"> Blog</a>
+            </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="Presentation.pdf" target="_blank">Presentation(PDF)</a>
             </li> -->
@@ -69,6 +72,19 @@
     <section id="portfolio" class="col-lg-10 col-md-10">
       <div class="container">
         <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 portfolio-item item-1">
+            <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Context Panels on Dashboards<br/>Sumo Logic | Product Design</p>
+                </div>
+              </div>
+              <div class="image-widget">
+                <img class="img-fluid" src="static/img/thumbnails/sumo.png" alt="Smart speaker on table">
+              </div>
+              <p>Context Panels on Dashboards<br/> <span class="sub-heading">Sumo Logic | Product Design</span></p>
+            </a>
+          </div>
           <div class="col-sm-12 col-md-6 col-lg-4 portfolio-item item-1">
             <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
               <div class="caption">
@@ -90,7 +106,7 @@
                 </div>
               </div>
               <div class="image-widget">
-                <img class="img-fluid" src="static/img/thumbnails/pair.jpg" alt="Sketch of two people pair programming">
+                <img class="img-fluid" src="static/img/thumbnails/coder_girls.png" alt="Sketch of two people pair programming">
               </div>
               <p>Pair-Programming Partner Search <br/> <span class="sub-heading"> Interaction Design </span></p>
             </a>
@@ -139,7 +155,7 @@
             </a>
           </div> -->
 
-          <div class="col-sm-12 col-md-6 col-lg-4 portfolio-item">
+          <!-- <div class="col-sm-12 col-md-6 col-lg-4 portfolio-item">
             <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -151,7 +167,7 @@
               </div>
               <p>Don't Pull Me Back! <br/> <span class="sub-heading"> Game Design </span> </p>
             </a>
-          </div>
+          </div> -->
           <div class="col-sm-12 col-md-6 col-lg-4 portfolio-item">
             <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
               <div class="caption">
@@ -818,6 +834,120 @@
                   <img src="static/img/portfolio/chattie/chattie.jpg" alt="Chattie Poster">
                   <a href="static/img/portfolio/chattie/chattie.pdf" target="_blank">View Poster (PDF)</a>
                   <br/> <br/>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <!-- <img src="static/img/portfolio/sumo/sumo.gif" alt="search page of app on laptop screen"/> -->
+                    </div>
+                    <!-- <div class="col-md-6">
+                      <img src="static/img/portfolio/582/page1.png" alt="search page of app"/>
+                    </div> -->
+                  </div>
+                  <h2>Sumo Logic: Context Panels on Dashboards</h2>
+                  <hr>
+                  <!-- <img class="img-fluid img-centered" src="static/img/portfolio/pair-programming.jpg" alt="Sketch of two people pair programming"> -->
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p> <strong>Problem: </strong></br>Users feel lost when investigating causes for alerts on Sumo Logic and lose critical time</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p> <strong>Skills developed: </strong> </br> Problem Identification, Design Synthesis, Brainstorming, Wireframing, High Fidelity Prototyping, Cross Functional Teamwork</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p> <strong>Solution: </strong></br> A Context Panel feature on dashboards to improve the investigation and troubleshooting experience of our cutomers </p>
+                    </div>
+                    <div class="col-md-4">
+                      <p> <strong>Tools used: </strong></br> Sketch, Framer.js, UXPin, Pen and Paper</p>
+                    </div>
+                  </div>
+                  <hr/>
+                  <h4>What is Sumo Logic?</h4>
+                  <p>Sumo Logic is a Log Management and Security Analytics Company. In everyday words, it provides businesses a web-based tool to monitor their machine application data and investigate breakdowns.</p>
+                  </br>
+
+                  <h4>Goal</h4>
+                  <p>When our customer’s application breaks down, their DevOps Engineers receive an alert about the issue. They log onto SumoLogic to examine the issue and investigate the cause of the outage. Since they are coming to the platform at a critical time, we want to ensure an efficient and smooth investigation experience for them. The goal of the internship was to</p>
+                  <p class="quote" style="color:#0094D3; text-align: center;"> </t> "Improve the Investigative Experience on Sumo Logic"</p>
+                  </br>
+
+                  <h4>Process</h4>
+                  <img src="static/img/portfolio/sumo/sumo.png" class="process" alt="process">
+                  </br>
+
+                  <h4>Understanding Pain Points</h4>
+                  <p>The initial goal was very vague. In order to deal with the ambiguity in this project, I decided to examine our users behaviour. I wanted to understand how they currently investigated on the platform (existing user behaviour) and the gaps where Sumo Logic was failing its users (paint points).</p>
+                  <img src="static/img/portfolio/sumo/user.png" class="process" alt="process">
+                  <p>Through user interviews we found that users used a node-branching search pattern, had difficulty in correlating various data sources and often felt lost during the process.</p>
+                  </br>
+
+                  <h4>Brainstorming & Stakeholder Review </h4>
+                  <p>Equipped with this information, I brainstormed three design features to help our users - Timeline, Playground, Context Panels.</p>
+                  <!--TBD: Image -->
+                  <p>I presented these options to the stakeholders (UX Director, Engineers and Product Managers). After discussions about business impact we decided to go with the Context Panels solution as it prompted our users to enter the Logs Page (which drives most of the income at Sumo Logic)</p>
+                  </br>
+
+                  <h4>Competitive Analysis</h4>
+                  <p>I looked at both direct and indirect competitors to understand how they presented related content and helped users in investigation.</p>
+                  <!--TBD: Image -->
+                  </br>
+
+                  <h4>Story Boarding</h4>
+                  <p>Having understood how our existing teams presented content, I wanted to go ahead and start designing it for our users. However, before actually putting pen to paper, I built a storyboard to examine the scenario when this feature will be used. Through this process, I understood the environments our users would be in and their context of use.</p>
+                  <img src="static/img/portfolio/sumo/storyboard.jpg" class="process" alt="storyboard" width="600">
+                  </br>
+
+                  <h4> Wireframing </h4>
+                  <p>Upon inspecting the user needs and business requirements, I combined the two to arrive at necessary components. I then collaborated with my mentor to decide the information hierarchy within the context panels and built wireframes to demonstrate the same.</p>
+                  <!-- TBD Image -->
+                  </br>
+
+                  <h4>Prototyping</h4>
+                  <p>Once we had designed the wireframes, I used the component library to complete the visual design in SketchApp. I then thought about interactions across the feature’s life cycle - how it would interact with other elements in the product, where the links would direct, what within the context panel would be interactive etc. I captured all these interactions in a clickable interactive prototype built using UXPin.</p>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <video controls="controls" name="Prototype" src="static/img/portfolio/sumo/video_final.mov"></video>
+                    </div>
+                  </div>
+                  </br>
+
+                  <h4>User Research & Design Iterations</h4>
+                  <p>I worked with the User Research Team to test this prototype with our users. We conducted 4 interviews which involved a demonstration of the prototype followed by asking the users for their reactions/impressions of it. We received the following feedback</p>
+                  <!-- TBD Image -->
+                  <p>Based on the interaction specific feedback, we iterated over the design. We added a logs histogram in the metrics context panel since all users suggested it would be useful. We removed the zoomed in state since the product already had a ‘Zoom’ button with the same functionality and all 4 of our users were confused with this interference.</p>
+                  <!-- Image -->
+                  </br>
+
+                  <h4>Final Design Features</h4>
+                  <img src="static/img/portfolio/sumo/design.jpg" alt="Final design details">
+                  </br>
+
+                  <h4>Reflections</h4>
+                  <p>This industry experience of being a Product Designer at a mid-size startup taught me a lot. It not only helped me pick up and improve my prototyping skills (by giving me a chance to learn UXPin, Framer.js), it also helped me improved my soft skills. I practiced presenting design decisions to various stakeholders, working within a cross functional team and improved communication skills. The entire process gave me a taste of dealing with ambiguity and using my design skills to create a seamless user experience.</p>
+                  <br/>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close Project</button>
