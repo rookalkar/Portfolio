@@ -26,7 +26,7 @@ h6 {
 
 h4 {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   text-transform: uppercase;
 }
 
@@ -311,7 +311,7 @@ header.masthead {
     .portfolio-modal .modal-dialog .modal-content li {
       font-size: 18px; }
     .portfolio-modal .modal-dialog .modal-content img {
-      margin-bottom: 30px;
+      margin: 50px auto;
       display: flex;
       justify-content: center;
       /*max-height: 300px;*/
