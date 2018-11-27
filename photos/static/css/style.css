@@ -52,6 +52,14 @@ body, h1, h2, h3, h4, h5 ,h6 {
   position: relative;
 }
 
+.info_overlay {
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  left: 50%;
+  width: initial !important;
+}
+
 .mycontainer img {
   width: 100%;
 }
