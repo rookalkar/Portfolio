@@ -11,32 +11,34 @@ var old_y = 100;
 var new_y = 0;
 
 function handleOrientation(event) {
-  var x = event.beta;  // In degree in the range [-180,180]
-  var y = event.gamma; // In degree in the range [-90,90]
+  var beta = event.beta;  // In degree in the range [-180,180]
+  var gamma = event.gamma; // In degree in the range [-90,90]
 
-  output.innerHTML  = "beta : " + x + "\n";
-  output.innerHTML += "gamma: " + y + "\n";
+  // output.innerHTML  = "beta : " + x + "\n";
+  // output.innerHTML += "gamma: " + y + "\n";
 
   // Because we don't want to have the device upside down
   // We constrain the x value to the range [-90,90]
-  if (x >  90) { x =  90};
-  if (x < -90) { x = -90};
+  if (beta >  90) { beta =  90};
+  if (beta < -90) { beta = -90};
 
   // To make computation easier we shift the range of
   // x and y to [0,180]
-  x += 90;
-  y += 90;
+  beta += 90;
+  gamma += 90;
 
   // 10 is half the size of the ball
   // It center the positioning point to the center of the ball
   old_x = new_x
   old_y = new_y
 
-  new_x = maxX*x/180 - 10
-  new_y = maxY*y/180 - 10
+  new_x = maxX*gamma/180 - 10
+  new_y = maxY*beta/180 - 10
 
   ball.setAttribute("cx",new_x)
   ball.setAttribute("cy",new_y)
+
+  drawLine(old_x, new_x, old_y, new_y);
 }
 
 function drawLine(x1, x2, y1, y2) {
@@ -57,4 +59,4 @@ function test(){
 }
 
 window.addEventListener('deviceorientation', handleOrientation);
-setInterval( function() { drawLine(old_x, new_x, old_y, new_y); }, 500 );
+//setInterval( function() { drawLine(old_x, new_x, old_y, new_y); }, 50 );
