@@ -32,7 +32,7 @@ function handleOrientation(event) {
   // It center the positioning point to the center of the ball
   old_x = new_x
   old_y = new_y
-  thickness = thickness*0.9
+  thickness = thickness - 0.001
 
   new_x = maxX*gamma/180 - 10
   new_y = maxY*beta/180 - 10
