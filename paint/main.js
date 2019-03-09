@@ -40,7 +40,7 @@ function handleOrientation(event) {
   ball.setAttribute("cx",new_x)
   ball.setAttribute("cy",new_y)
 
-  drawLine(old_x, new_x, old_y, new_y, thickness);
+  drawLine(old_x, new_x, old_y, new_y, 1);
 }
 
 function drawLine(x1, x2, y1, y2, stroke) {
