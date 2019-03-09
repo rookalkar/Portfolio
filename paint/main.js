@@ -9,6 +9,7 @@ var old_x = 100;
 var new_x = 0;
 var old_y = 100;
 var new_y = 0;
+var thickness = 2;
 
 function handleOrientation(event) {
   var beta = event.beta;  // In degree in the range [-180,180]
@@ -31,6 +32,7 @@ function handleOrientation(event) {
   // It center the positioning point to the center of the ball
   old_x = new_x
   old_y = new_y
+  thickness = thickness*0.9
 
   new_x = maxX*gamma/180 - 10
   new_y = maxY*beta/180 - 10
@@ -38,10 +40,10 @@ function handleOrientation(event) {
   ball.setAttribute("cx",new_x)
   ball.setAttribute("cy",new_y)
 
-  drawLine(old_x, new_x, old_y, new_y);
+  drawLine(old_x, new_x, old_y, new_y, thickness);
 }
 
-function drawLine(x1, x2, y1, y2) {
+function drawLine(x1, x2, y1, y2, stroke) {
   console.log("line")
   var newLine = document.createElementNS('http://www.w3.org/2000/svg','line');
   newLine.setAttribute('x1',x1);
@@ -50,7 +52,7 @@ function drawLine(x1, x2, y1, y2) {
   newLine.setAttribute('y2',y2);
   newLine.setAttribute('stroke',"black");
   // newLine.setAttribute("opacity", 0.5);
-  // newLine.setAttribute("stroke-width", 0.5);
+  newLine.setAttribute("stroke-width", stroke);
   garden.append(newLine);
 }
 

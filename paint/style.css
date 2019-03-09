@@ -1,7 +1,7 @@
 .garden {
   position: relative;
-  width : 200px;
-  height: 200px;
+  width : 95vw;
+  height: 95vh;
   border: 5px solid #CCC;
   border-radius: 10px;
 }
