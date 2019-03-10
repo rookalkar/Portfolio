@@ -85,7 +85,7 @@ function handleAcceleration() {
   //Represents a rotation rate along the axis going
   //from bottom to top of the plane of the screen (or keyboard for desktop).
   var nodes = document.getElementsByTagName('line');
-  if (rot > 50 || rot < -50) {
+  if (rot > 100 || rot < -100) {
     output.innerHTML  = rot;
     for(var i = 0; i < nodes.length; i++){
       nodes[i].parentNode.removeChild(nodes[i]);
