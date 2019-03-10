@@ -82,9 +82,11 @@ function changeColor(event) {
 
 function handleAcceleration() {
   rot = event.rotationRate.gamma;
+  //Represents a rotation rate along the axis going
+  //from bottom to top of the plane of the screen (or keyboard for desktop).
   var nodes = document.getElementsByTagName('line');
   if (rot > 50 || rot < -50) {
-    //output.innerHTML  = "Flick";
+    output.innerHTML  = rot;
     for(var i = 0; i < nodes.length; i++){
       nodes[i].parentNode.removeChild(nodes[i]);
     }
