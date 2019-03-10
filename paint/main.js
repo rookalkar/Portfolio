@@ -85,6 +85,9 @@ function handleAcceleration() {
   if ((rot > 5) or (rot < -5)) {
     output.innerHTML  = "Flick"";
   }
+  else {
+    output.innerHTML  = "NO Flick"";
+  }
 }
 
 
