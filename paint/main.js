@@ -82,11 +82,11 @@ function changeColor(event) {
 
 function handleAcceleration() {
   rot = event.rotationRate.gamma;
-  if ((rot > 5) or (rot < -5)) {
-    output.innerHTML  = "Flick"";
+  if (rot > 5 || rot < -5) {
+    output.innerHTML  = "Flick";
   }
   else {
-    output.innerHTML  = "NO Flick"";
+    output.innerHTML  = "NO Flick";
   }
 }
 
