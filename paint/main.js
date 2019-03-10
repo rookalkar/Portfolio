@@ -80,7 +80,12 @@ function changeColor(event) {
   ball.setAttribute("fill", color);
 }
 
+function handleAcceleration() {
+  rot = event.rotationRate.gamma;
+  output.innerHTML  = "rotationrate : " + rot + "\n";
+}
+
 
 colorPicker.addEventListener("change", changeColor);
 window.addEventListener('deviceorientation', handleOrientation);
-//setInterval( function() { drawLine(old_x, new_x, old_y, new_y); }, 50 );
+window.addEventListener('devicemotion', handleAcceleration)
