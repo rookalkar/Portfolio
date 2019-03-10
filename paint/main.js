@@ -11,7 +11,7 @@ var old_x = 100;
 var new_x = 0;
 var old_y = 100;
 var new_y = 0;
-var thickness = 5;
+var thickness = 2;
 var opacity = 1;
 
 function handleOrientation(event) {
@@ -38,19 +38,19 @@ function handleOrientation(event) {
   // thickness == 0.1 ? thickness = 0.1: thickness = thickness - 0.001
   //opacity == 0.1 ? opacity = 0.1: opacity = opacity - 0.001
 
-  if (thickness == 0.1) {
-    thickness = 0.1
-  }
-  else {
-    thickness = thickness - 0.001
-  }
-
-  if (opacity == 0.1) {
-    opacity = 0.1
-  }
-  else {
-    opacity = opacity - 0.001
-  }
+  // if (thickness == 0.1) {
+  //   thickness = 0.1
+  // }
+  // else {
+  //   thickness = thickness - 0.001
+  // }
+  //
+  // if (opacity == 0.1) {
+  //   opacity = 0.1
+  // }
+  // else {
+  //   opacity = opacity - 0.001
+  // }
 
 
   new_x = maxX*gamma/180 - 10
