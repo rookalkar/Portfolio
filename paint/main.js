@@ -83,7 +83,7 @@ function changeColor(event) {
 function handleAcceleration() {
   rot = event.rotationRate.gamma;
   var nodes = document.getElementsByTagName('line');
-  if (rot > 10 || rot < -10) {
+  if (rot > 50 || rot < -50) {
     //output.innerHTML  = "Flick";
     for(var i = 0; i < nodes.length; i++){
       nodes[i].parentNode.removeChild(nodes[i]);
