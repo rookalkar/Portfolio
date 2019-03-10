@@ -9,7 +9,7 @@ var old_x = 100;
 var new_x = 0;
 var old_y = 100;
 var new_y = 0;
-var thickness = 2;
+var thickness = 5;
 
 function handleOrientation(event) {
   var beta = event.beta;  // In degree in the range [-180,180]
@@ -32,7 +32,8 @@ function handleOrientation(event) {
   // It center the positioning point to the center of the ball
   old_x = new_x
   old_y = new_y
-  thickness = thickness - 0.001
+  thickness == 0.1 ? thickness = 0.1: thickness = thickness - 0.001
+
 
   new_x = maxX*gamma/180 - 10
   new_y = maxY*beta/180 - 10
@@ -40,7 +41,7 @@ function handleOrientation(event) {
   ball.setAttribute("cx",new_x)
   ball.setAttribute("cy",new_y)
 
-  drawLine(old_x, new_x, old_y, new_y, 1);
+  drawLine(old_x, new_x, old_y, new_y, thickness);
 }
 
 function drawLine(x1, x2, y1, y2, stroke) {
