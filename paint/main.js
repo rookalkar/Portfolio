@@ -1,9 +1,11 @@
 var ball   = document.getElementById("ball");
 var garden = document.getElementById("garden");
 var output = document.getElementById("output");
+var colorPicker = document.getElementById("color");
 
 var maxX = garden.clientWidth  - ball.clientWidth;
 var maxY = garden.clientHeight - ball.clientHeight;
+var color = "black";
 
 var old_x = 100;
 var new_x = 0;
@@ -67,15 +69,18 @@ function drawLine(x1, x2, y1, y2, stroke, opacity) {
   newLine.setAttribute('y1',y1);
   newLine.setAttribute('x2',x2);
   newLine.setAttribute('y2',y2);
-  newLine.setAttribute('stroke',"black");
+  newLine.setAttribute('stroke',color);
   newLine.setAttribute("opacity", opacity);
   newLine.setAttribute("stroke-width", stroke);
   garden.append(newLine);
 }
 
-function test(){
-  console.log("hello")
+function changeColor(event) {
+  color = event.target.value;
+  ball.setAttribute("fill", color);
 }
 
+
+colorPicker.addEventListener("change", changeColor);
 window.addEventListener('deviceorientation', handleOrientation);
 //setInterval( function() { drawLine(old_x, new_x, old_y, new_y); }, 50 );
