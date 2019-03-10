@@ -82,11 +82,12 @@ function changeColor(event) {
 
 function handleAcceleration() {
   rot = event.rotationRate.gamma;
-  if (rot > 5 || rot < -5) {
-    output.innerHTML  = "Flick";
-  }
-  else {
-    output.innerHTML  = "NO Flick";
+  var nodes = document.getElementsByTagName('line');
+  if (rot > 10 || rot < -10) {
+    //output.innerHTML  = "Flick";
+    for(var i = 0; i < nodes.length; i++){
+      nodes[i].parentNode.removeChild(nodes[i]);
+    }
   }
 }
 
